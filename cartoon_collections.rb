@@ -15,4 +15,5 @@ def list_dwarves(array)
   
   array.each_with_index do |character, index|
     print "#{index + 1}. #{character}"
+  end
 end
